@@ -78,6 +78,7 @@ void set_value(Iron& iron) {
 	switch (choice_set)
 	{
 	case 8: {
+		system("cls");
 		break;
 	}break;
 
@@ -132,7 +133,8 @@ void get_value(Iron iron) {
 	cout << "Your value: ";
 	switch (choice_get)
 	{
-	case 10: {
+	case 8: {
+		system("cls");
 		break;
 	}break;
 
@@ -203,6 +205,7 @@ void find_value(Iron iron) {
 	switch (choice_find)
 	{
 	case 8: {
+		system("cls");
 		break;
 	}break;
 
