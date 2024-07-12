@@ -128,7 +128,8 @@ void set_value(Wash_machine& car) {
 	cout << "Enter value: ";
 	switch (choice_set)
 	{
-	case 10: {
+	case 9: {
+		system("cls");
 		break;
 	}break;
 
@@ -203,7 +204,8 @@ void get_value(Wash_machine car) {
 	cout << "Your value: ";
 	switch (choice_get)
 	{
-	case 10: {
+	case 9: {
+		system("cls");
 		break;
 	}break;
 
@@ -276,6 +278,7 @@ void find_value(Wash_machine car) {
 	switch (choice_find)
 	{
 	case 9: {
+		system("cls");
 		break;
 	}break;
 
