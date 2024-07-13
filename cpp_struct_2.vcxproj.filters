@@ -4,10 +4,36 @@
     <Filter Include="main">
       <UniqueIdentifier>{ba210271-4f5d-49d4-99f8-443f3e4422ee}</UniqueIdentifier>
     </Filter>
+    <Filter Include="book">
+      <UniqueIdentifier>{eef31381-a1d2-455e-9920-43bd14984932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lab">
+      <UniqueIdentifier>{a3cbb0af-373a-4722-a1a4-1444581d0ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library">
+      <UniqueIdentifier>{b66ca244-1ce7-44f6-a0b7-e0ce044b2b58}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>main</Filter>
     </ClCompile>
+    <ClCompile Include="book.cpp">
+      <Filter>book</Filter>
+    </ClCompile>
+    <ClCompile Include="library.cpp">
+      <Filter>library</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="book.h">
+      <Filter>book</Filter>
+    </ClInclude>
+    <ClInclude Include="lib.h">
+      <Filter>lab</Filter>
+    </ClInclude>
+    <ClInclude Include="library.h">
+      <Filter>library</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
